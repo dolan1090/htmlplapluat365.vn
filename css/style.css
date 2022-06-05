@@ -1,0 +1,781 @@
+		body {
+			margin: 0px;
+		}
+
+		img {
+			width: 100%;
+			height: 100%;
+		}
+
+		h1,h2,h3,h4,h5 {margin: 0px;}
+
+		.red {color: red;}
+
+		.m-b-10 {margin-bottom: 10px}
+
+
+		.ladi-wraper {
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+		}
+
+		.ladi-section {
+			margin: 0 auto;
+			position: relative;
+		}
+
+		.ladi-section .ladi-section-background {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			pointer-events: none;
+		}
+
+		.ladi-container {
+			position: relative;
+			margin: 0 auto;
+			height: 100%;
+		}
+
+		#SECTION502 .ladi-container {
+			display: flex;
+		}
+
+		.img-SECTION502 {
+			float: left;
+			width: 25%;
+			padding-right: 15px;
+		}
+
+		.img-SECTION502 img {
+			width: 100%;
+		}
+
+
+		.ladi-element {
+			position: absolute;
+		}
+
+		.ladi-headline {
+			width: 100%;
+			display: inline-block;
+			background-size: cover;
+			background-position: center center;
+		}
+
+		.ladi-group {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+		}
+
+		.ladi-box {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+		}
+
+		.ladi-button {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+		}
+
+		.ladi-button>.ladi-element {
+			width: 100%!important;
+			height: 100%!important;
+			top: 0!important;
+			left: 0!important;
+			display: table;
+			user-select: none;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			background-color: rgb(232, 58, 48);
+		}
+
+		.ladi-button>.ladi-element .ladi-headline {
+			display: table-cell;
+			vertical-align: middle;
+		}
+
+		.ladi-line .ladi-line-container {
+			border-bottom: 0!important;
+			border-right: 0!important;
+			width: 100%;
+			height: 100%;
+		}
+
+		.ladi-shape {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+		}
+
+		.ladi-overlay {
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 100%;
+			pointer-events: none;
+		}
+
+		.ladi-image {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+		}
+
+		.ladi-image .ladi-image-background {
+			background-repeat: no-repeat;
+			background-position: left top;
+			background-size: cover;
+			background-attachment: scroll;
+			background-origin: content-box;
+			position: absolute;
+			margin: 0 auto;
+			width: 100%;
+			height: 100%;
+			pointer-events: none;
+		}
+
+		#SHAPE308 svg:last-child {
+			fill: rgba(47,67,87,1);
+		}
+
+
+		.ladi-video {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			cursor: pointer;
+			overflow: hidden;
+		}
+
+/*		.ladi-video .ladi-video-background {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			pointer-events: none;
+			}*/
+
+			.ladi-list-paragraph {
+				width: 100%;
+				display: inline-block;
+			}
+
+			.ladi-list-paragraph ul {
+				list-style: none;
+				padding-left: 0px;
+				margin: 0px;
+			}
+
+			.ladi-list-paragraph ul li {
+				position: relative;
+				counter-increment: linum;
+			}
+
+			.ladi-list-paragraph ul li:before {
+				position: absolute;
+				background-repeat: no-repeat;
+				background-size: 100% 100%;
+				left: 0;
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			section.section-gt-1 {
+				background-image: url(https://w.ladicdn.com/uploads/images/e08b0027-b81e-4370-b4bd-4db1e46acd39.jpg);
+			}
+
+			.section-gt-1-left1 {
+				/* float: left; */
+				padding-top: 100px;
+			}
+
+
+			.t1-section-gt-1-left1 {
+				/*font-family: "Taviraj", serif;*/
+				color: rgb(6, 52, 113);
+				font-size: 30px;
+				font-weight: bold;
+				font-style: italic;
+				line-height: 1.6;
+				text-align: center;
+			}
+
+			.t2-section-gt-1-left1 {
+				/*font-family: "Tinos", serif;*/
+				color: rgb(28, 16, 145);
+				font-size: 72px;
+				font-weight: bold;
+				font-style: italic;
+				text-align: center; 
+				line-height: 1;
+				text-shadow: rgb(210, 227, 250) 3px 3px 3px;
+			}
+
+			.t3-section-gt-1-left1 {
+				border-top: 2px solid rgb(47, 67, 87);
+				border-right: 2px solid rgb(47, 67, 87);
+				border-bottom: 2px solid rgb(47, 67, 87);
+				border-left: 0px !important;
+			}
+
+			.t4-section-gt-1-left1 {
+				/*font-family: "Tinos", serif;*/
+				color: rgb(47, 67, 87);
+				font-size: 21px;
+				font-weight: bold;
+				font-style: italic;
+				text-align: center; 
+				line-height: 1;				
+				padding: 15px;
+			}
+
+			.section-gt-1-right1 {
+				float: right;
+			}
+
+			.section-gt-1-left2 {
+				float: left;
+			}
+
+			.t1-section-gt-1-left2 .subtext {
+				width: 140.75px;
+				height: 140.75px;
+				border-radius: 220px;
+				background-color: rgb(11, 92, 22);
+				padding-top: 24px;
+				text-align: center;
+				color: #fff;
+				font-size: 22px;
+				font-weight: bold;
+				margin-right: 15px;
+				margin-bottom: 15px; 
+			}
+
+			.t1-section-gt-1-left2 .subtext:nth-child(1) {
+				margin-left: 60px; 
+			}
+
+			.t1-section-gt-1-left2 .subtext:nth-child(2) {
+				background-color: rgb(16, 72, 145);
+			}
+
+			.t1-section-gt-1-left2 .subtext:nth-child(3) {
+				background-color: rgb(200, 31, 23);
+			}
+
+			.t2-section-gt-1-left2 {
+				text-align: center;
+			}
+
+			.t2-section-gt-1-left2 .subtext:nth-child(1) {
+				/*font-family: "Montserrat", sans-serif;*/
+				color: rgb(38, 38, 38);
+				font-size: 31px;
+				font-weight: bold;
+				font-style: italic;
+				line-height: 1.6;
+			}
+
+			.t2-section-gt-1-left2 .subtext:nth-child(2) {
+				/*font-family: "Montserrat", sans-serif;*/
+				color: rgb(232, 58, 48);
+				font-size: 48px;
+				font-weight: bold;
+				font-style: italic;
+				line-height: 1.6;
+			}
+
+			.t2-section-gt-1-left2 .subtext:nth-child(3) {
+				background-color: rgb(232, 58, 48);
+				border-radius: 5px;
+			}
+
+
+			.t2-section-gt-1-left2 .subtext a {
+				color: rgb(255, 255, 255);
+				font-size: 22px;
+				font-weight: bold;
+				text-align: center;
+				line-height: 1.6;
+			}
+
+			/*			End section1*/
+
+			section.section-gt-2 {
+				background: linear-gradient( rgba(5, 181, 160, 0.87) 100%, rgba(5, 181, 160, 0.87)100%), url(https://w.ladicdn.com/s1440x628/57b167c9ca57d39c18a1c57c/atdesign-nordic-style-living-in-monochrome.jpg);
+			}
+
+			.section-gt-2-header {
+				/*font-family: "Lobster", cursive;*/
+				color: rgb(255, 255, 255);
+				font-size: 36px;
+				text-align: center;
+				line-height: 1;
+				padding-top: 20px;
+			}
+
+			.section-gt-2-des {
+				/*font-family: "Roboto", sans-serif;*/
+				color: rgb(255, 255, 255);
+				font-size: 16px;
+				font-weight: bold;
+				font-style: italic;
+				text-align: center;
+				line-height: 1.2;
+				width: 722px;
+				margin: 0 auto;
+				padding-top: 20px;
+			}
+
+			.section-gt-2-content-left iframe {
+				margin-left: 90px;
+				margin-top: 40px;
+			}
+
+			.section-gt-2-content-right .ladi-list-paragraph {
+				color: rgb(255, 255, 255);
+				font-size: 15px;
+				font-weight: bold;
+				font-style: italic;
+				text-align: left;
+				line-height: 2.2;
+				margin-top: 40px;
+				margin-left: 100px;
+			}
+
+			.section-gt-2-content-right .ladi-list-paragraph li {
+				padding-left: 30px;
+			}
+
+			.section-gt-2-content-right .ladi-list-paragraph ul li:before {
+				content: "";
+				background-image: url(icon-v.png);
+				width: 22px;
+				height: 22px;
+				margin-top: 5px;
+			}
+
+			.section-gt-2-content-right .btn-buy {
+				color: rgb(255, 255, 255);
+				font-size: 22px;
+				font-weight: bold;
+				text-align: center;
+				line-height: 1.6;
+				background-color: rgb(232, 58, 48);
+				width: 150px;
+				padding: 5px;
+				border-radius: 5px;
+				margin-left: 150px;
+				margin-top: 30px;
+			}
+
+			/*End section 2*/
+
+
+
+			.section-gt-3-header {
+				/*font-family: "Pattaya", sans-serif;*/
+				color: rgb(232, 59, 48);
+				font-size: 30px;
+				text-align: center;
+				line-height: 1;
+				margin: 0px;
+				margin-top: 80px;
+			}
+
+			.section-gt-3 .ladi-line {
+				width: 60%;
+				padding: 8px 0px;
+				margin-top: 20px !important;
+				margin-bottom: 20px !important;
+				margin: auto;
+			}
+
+			.section-gt-3 .ladi-line .ladi-line-container {
+				border-top: 1px solid rgb(16, 72, 145);
+				border-right: 1px solid rgb(16, 72, 145);
+				border-bottom: 1px solid rgb(16, 72, 145);
+				border-left: 0px !important;
+			}
+
+			.section-gt-3 .section-gt-3-left img {
+				margin-left: 90px;
+				margin-top: 40px;
+			}
+
+			.section-gt-3 p.ladi-paragraph1 {
+				/*font-family: "Roboto", sans-serif;*/
+				color: rgb(0, 0, 0);
+				font-size: 17px;
+				font-weight: bold;
+				font-style: italic;
+				text-align: left;
+				line-height: 1.4;
+				margin-bottom: 20px;
+			}
+
+			.section-gt-3 .ladi-list-paragraph {
+				/*font-family: "Roboto", sans-serif;*/
+				color: rgb(0, 0, 0);
+				font-size: 20px;
+				font-style: italic;
+				text-align: justify;
+				line-height: 2.2;
+				margin-bottom: 20px;
+			}
+
+			.section-gt-3 .ladi-list-paragraph ul {
+				list-style: none;
+				padding-left: 40px;
+				margin: 0px;
+			}
+
+			.section-gt-3 .ladi-list-paragraph ul li:before {
+				content: counter(linum, square);
+				color: rgba(255, 0, 0, 1.0);
+				font-size: 26px;
+				top: -6px;
+			}
+
+			.section-gt-3 .ladi-list-paragraph ul li {
+				padding-left: 30px;
+				padding-top: 3px;
+			}
+
+			.section-gt-3 p.ladi-paragraph2 {
+				/*font-family: "Pattaya", sans-serif;*/
+				color: rgb(232, 59, 48);
+				font-size: 25px;
+				text-align: center;
+				line-height: 1.4;
+				margin: 0px;
+				background: #fdfbfb;
+				background: -webkit-linear-gradient(180deg, #fdfbfb, #eaedee);
+				background: linear-gradient(180deg, #fdfbfb, #eaedee);
+				border-radius: 10px;
+				box-shadow: 10px 10px 20px -20px #000;
+				-webkit-box-shadow: 10px 10px 20px -20px #000;
+				padding: 5px 30px;
+				margin-bottom: 20px;
+			}
+
+			.section-gt-3 .btn-buy {
+				color: rgb(255, 255, 255);
+				font-size: 22px;
+				font-weight: bold;
+				text-align: center;
+				line-height: 1.6;
+				background-color: rgb(232, 58, 48);
+				width: 150px;
+				padding: 5px;
+				border-radius: 5px;
+				margin-left: 200px;
+				margin-top: 30px;
+			}
+
+			/*End section 3*/
+
+
+			section.section-gt-4 {
+				background-image: url(https://w.ladicdn.com/s1440x603/57b167c9ca57d39c18a1c57c/cat-bui.jpg);
+			}
+
+			.section-gt-4-header {
+				/*font-family: "Pattaya", sans-serif;*/
+				color: rgb(28, 16, 145);
+				font-size: 30px;
+				text-align: center;
+				line-height: 1;
+				margin: 0px;
+				margin-top: 60px;
+				margin-left: 50px;
+			}
+
+			.section-gt-4 .ladi-line {
+				width: 60%;
+				padding: 8px 0px;
+				margin-top: 20px !important;
+				margin-bottom: 20px !important;
+				margin-left: 145px !important;
+				margin: auto;
+			}
+
+			.section-gt-4 .ladi-line .ladi-line-container {
+				border-top: 1px solid rgb(16, 72, 145);
+				border-right: 1px solid rgb(16, 72, 145);
+				border-bottom: 1px solid rgb(16, 72, 145);
+				border-left: 0px !important;
+			}
+
+			.section-gt-4 .ladi-list-paragraph {
+				/*font-family: "Roboto", sans-serif;*/
+				color: rgb(61, 61, 61);
+				font-size: 17px;
+				font-weight: bold;
+				font-style: italic;
+				text-align: left;
+				line-height: 2.2;
+				margin-left: 155px;
+			}
+
+			.section-gt-4 .ladi-list-paragraph ul li:before {
+				content: "";
+				background-image: url(icon-v2.png);
+				width: 27px;
+				height: 27px;
+				top: 5px;
+			}
+
+			.section-gt-4 .ladi-list-paragraph ul li {
+				padding-left: 40px;
+			}
+
+			.section-gt-4 .image img {
+				width: 429.223px;
+				height: 276.133px;
+				margin: 20px 0px 0px 130px;
+			}
+
+			/*End section 4*/
+
+
+
+			section.section-gt-5 {
+				padding-top: 30px;
+				background-image: url(https://w.ladicdn.com/s1440x603/57b167c9ca57d39c18a1c57c/cat-bui.jpg);
+			}
+			section.section-gt-5 .row {
+				margin-left: 50px;
+			}
+
+			.section-gt-5-header {
+				font-family: "Open Sans", sans-serif;
+				color: rgb(232, 59, 48);
+				font-size: 32px;
+				font-weight: bold;
+				text-align: center;
+				line-height: 1.2;
+			}
+
+			section.section-gt-5 p.ladi-paragraph1 {
+				font-family: "Open Sans", sans-serif;
+				font-size: 32px;
+				font-weight: bold;
+				text-align: center;
+				line-height: 1.2;
+				color: rgb(7, 26, 51);
+			}
+
+			p.ladi-paragraph2 {
+				color: rgb(38, 38, 38);
+				font-size: 20px;
+				font-weight: bold;
+				font-style: italic;
+				line-height: 1.6;
+				text-align: center;
+			}
+
+
+			section.section-gt-5 .table-left .box {
+				height: 503px;
+				background-color: rgb(0, 0, 0);
+			}
+
+			section.section-gt-5 .table-right .box {
+				height: 503px;
+				background-color: rgb(38, 38, 38);
+			}
+
+			#SHAPE523 {
+				width: 39px;
+				height: 45.5151px;
+				top: 36.1787px;
+				left: 146px;
+			}
+
+			.section-gt-5-table {
+				margin-left: 160px;
+				margin-right: 160px;
+			}
+
+			.section-gt-5-table .table-right {
+				padding-left: 0px;
+			}
+
+			#BOX526 {
+				width: 313px;
+				height: 273.09px;
+				top: 120px;
+				left: -8px;
+				background-color: rgb(224, 0, 40);
+			}
+
+
+			section.section-gt-5 h2.ladi-headline {
+				color: rgb(255, 255, 255);
+				font-size: 27px;
+				font-weight: bold;
+				text-align: center;
+				letter-spacing: 1px;
+				line-height: 1.5;
+				position: absolute;
+				padding: 35px 30px 0px 15px;
+			}
+
+			#PARAGRAPH524 {
+				width: 217px;
+				top: 422.473px;
+				left: 50px;
+			}
+
+			#PARAGRAPH524 > .ladi-paragraph {
+				font-family: "Open Sans", sans-serif;
+				color: rgb(255, 255, 255);
+				font-size: 16px;
+				font-weight: bold;
+				text-align: center;
+				line-height: 1.2;
+			}
+
+			#HEADLINE519 {
+				width: 390px;
+				top: 0px;
+				left: 35.5px;
+			}
+
+			section.section-gt-5 form {
+				width: 320px;
+				margin-left: 65px;
+			}
+
+
+			/*End section 5*/
+
+
+			section.section-gt-6 {
+				padding-top: 30px;
+				padding-bottom: 30px;
+			}
+			section.section-gt-6 .row {
+				margin-left: 50px;
+			}
+
+
+
+			/*End section 6*/
+
+
+			.section-gt-7 #SECTION508 {
+				height: 900px;
+			}
+
+
+			section.section-gt-8 {
+				padding-top: 30px;
+				background-image: url(https://w.ladicdn.com/s1440x603/57b167c9ca57d39c18a1c57c/cat-bui.jpg);
+			}
+
+			.box-section-8 {
+				border-radius: 20px;
+				box-shadow: 15px 15px 13px -15px #000;
+				-webkit-box-shadow: 15px 15px 13px -15px #000;
+				background-color: rgb(224, 224, 224);
+				padding: 20px;
+				text-align: center;
+			}
+
+			.box-section-8 .ladi-headline {
+				color: rgb(0, 0, 0);
+				font-size: 16px;
+				font-style: italic;
+				line-height: 1.6;
+				margin-top: 10px;
+			}
+
+
+/*start footer*/
+
+footer {
+    background-color: rgb(6, 25, 50);
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer .left {
+        padding-left: 30px;
+}
+
+
+footer .left h6.ladi-headline {
+    font-family: "Open Sans", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.2;
+}
+
+footer .left p.ladi-headline {
+    font-family: "Open Sans", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    text-align: left;
+    line-height: 1.2;
+}
+
+footer .right p.ladi-headline {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.6;
+    background: red;
+    width: 250px;
+    padding: 10px;
+}
+
+footer .end p.ladi-paragraph {
+    font-family: "Open Sans", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+    text-align: center;
+    line-height: 1.2;
+}
